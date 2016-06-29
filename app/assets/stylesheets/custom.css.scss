@@ -1,0 +1,193 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+/* layout style */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-inverse {
+  background-color: #0D6596;
+  border-color: #0D6596;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #2E6DA4;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #0D6596;
+}
+
+.logo {
+	margin-top: 8px;
+}
+
+.navbar-left {
+	margin-left: 60px;
+}
+
+/* home page */
+
+.jumbotron {
+	background:#E6E6E6 url(/assets/banner.png) no-repeat;
+	-moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+	height: 400px;
+}
+
+.jumbotron .container .content {
+	margin-top: 30px;
+	width: 400px;
+	padding-top: 12px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	background-color: #006FC4;
+	filter:alpha(opacity=60);
+  opacity:0.6;
+  color: #FFFFFF;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  font-size: 40px;
+}
+
+.thumbnail {
+  padding: 0px;
+  .caption {
+  	padding: 12px;
+  	h3 {
+  		margin-bottom: 24px;
+  	}
+  	p {
+  		margin-bottom: 36px;
+  	}
+  }
+}
+
+.recommend-banner {
+  background-color: #FFFFFF;
+  height: 300px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.recommend-content {
+  background-color: #EEEEEE;
+  height: 300px;
+  padding-top: 80px;
+  padding-left: 60px;
+}
+
+.recommend-content-B {
+  background-color: #EEEEEE;
+  height: 300px;
+  padding-top: 80px;
+  padding-right: 60px;
+  text-align: right;
+}
+
+.home-news {
+  background-color: #0D6596;
+  height: 300px;
+  padding-top: 20px;
+  h3 {
+    color: #FFFFFF;
+  }
+  .news-list {
+    background-color: #FFFFFF;
+    padding-top: 12px;
+    height: 46px;
+    border-style: solid; border-width: 0.5px;
+    text-align: center;
+    a {
+      color: #333333;
+      text-decoration: none;
+    }
+  }
+}
+
+.maps {
+  background:#E6E6E6 url(/assets/maps.png) no-repeat;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  height: 460px;
+}
+
+.home-contact {
+  background-color: #0D6596;
+  height: 80px;
+  color: #FFFFFF;
+  padding-top: 16px;
+  span {
+    font-size: 18px;
+    margin-right: 80px;
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+.footer {
+  font-size: 14px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  font-size: 12px;
+  color: #AAAAAA;
+}
+
+.footer-list {
+  height: 220px;
+  background-color: #333333;
+  color: #AAAAAA;
+}
+
+.footer-list-one {
+  margin-top: 36px;
+  height: 170px;
+  strong{
+    color: #EEEEEE;
+  }
+}
+
+.footer-list-one .list-unstyled li {
+  padding-bottom: 8px;
+}
+
+
+.footer  .footer-container {
+  padding-top: 12px;
+  font-size: 12px;
+  height: 40px;
+  background-color: #000000;
+  color: #EEEEEE;
+}
