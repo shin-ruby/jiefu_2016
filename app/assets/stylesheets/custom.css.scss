@@ -47,6 +47,45 @@ body {
 	margin-left: 60px;
 }
 
+.footer {
+  font-size: 14px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  font-size: 12px;
+  color: #AAAAAA;
+}
+
+.footer-list {
+  height: 220px;
+  background-color: #333333;
+  color: #AAAAAA;
+}
+
+.footer-list-one {
+  margin-top: 36px;
+  height: 170px;
+  strong{
+    color: #EEEEEE;
+  }
+}
+
+.footer-list-one .list-unstyled li {
+  padding-bottom: 8px;
+}
+
+
+.footer  .footer-container {
+  padding-top: 12px;
+  font-size: 12px;
+  height: 40px;
+  background-color: #000000;
+  color: #EEEEEE;
+}
+
+
 /* home page */
 
 .jumbotron {
@@ -154,40 +193,63 @@ body {
   }
 }
 
-.footer {
-  font-size: 14px;
-  bottom: 0;
-  width: 100%;
-}
+/* contact page */
 
-.footer a {
-  font-size: 12px;
-  color: #AAAAAA;
-}
-
-.footer-list {
-  height: 220px;
-  background-color: #333333;
-  color: #AAAAAA;
-}
-
-.footer-list-one {
-  margin-top: 36px;
-  height: 170px;
-  strong{
+.contact-jumbotron {
+  background:#E6E6E6 url(/assets/contact-banner.png) no-repeat;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  height: 300px;
+  h2 {
+    margin-top: 120px;
     color: #EEEEEE;
   }
 }
 
-.footer-list-one .list-unstyled li {
-  padding-bottom: 8px;
+.contact {
+  padding-top: 80px;
+  padding-bottom: 300px;
+  p {
+    font-size: 16px;
+  }
+  form {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    p {
+      margin-top: 10px;
+    }
+  }
+  .form-control {
+    background-color: #F0F0F0;
+  }
 }
 
+/* product-list page */
 
-.footer  .footer-container {
-  padding-top: 12px;
-  font-size: 12px;
-  height: 40px;
-  background-color: #000000;
+.product-banner {
+  background-color: #30ABFC;
   color: #EEEEEE;
+  height: 180px;
+  h2 {
+    margin-top: 40px;
+  }
 }
+
+.product-list {
+  .row {
+    padding-top: 100px;
+  }
+  .product-img {
+    margin-bottom: 18px;
+  }
+  h4 {
+    color: #0E6AA9;
+  }
+  nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
